@@ -1,0 +1,11 @@
+[project]
+name = "mcp-af-graph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gql[aiohttp]>=3.5.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.2.1",
+]
